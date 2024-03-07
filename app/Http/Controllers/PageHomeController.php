@@ -6,5 +6,7 @@ use Illuminate\Http\Request;
 
 class PageHomeController extends Controller
 {
-    //
+    public function anasayfa(){
+        return view('Hoşgeldinizz');
+    }
 }
